@@ -1,0 +1,41 @@
+.about {
+  height: auto;
+}
+
+.about img {
+  height: 6em;
+  width: 6em;
+}
+
+.about-content {
+  background: rgba(54, 44, 117, 0.9);
+  color: #dadce1ea;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  max-width: 60%;
+  border-radius: 5%;
+}
+
+.me p {
+  text-indent: 2em;
+}
+
+.about-content a {
+  font-size: 1.5em;
+}
+
+a:link, a:visited {
+  color: #dadce1ea;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:link:active, a:visited:active {
+  color: #dadce1ea;
+}
+/*# sourceMappingURL=about.css.map */

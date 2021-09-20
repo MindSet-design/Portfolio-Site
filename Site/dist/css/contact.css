@@ -1,0 +1,40 @@
+.contact {
+  height: 100vh;
+}
+
+.contact a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact img {
+  height: 10em;
+  width: 10em;
+}
+
+.contact-content {
+  background: rgba(54, 44, 117, 0.9);
+  color: #dadce1ea;
+  margin: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  max-width: 80%;
+  border-radius: 5%;
+}
+
+.contact-content h2 {
+  text-align: center;
+}
+
+.contact-content p {
+  text-align: center;
+}
+/*# sourceMappingURL=contact.css.map */

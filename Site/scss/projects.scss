@@ -1,0 +1,41 @@
+@import "formating";
+
+.projects{
+    height: auto; 
+}
+
+.projects img{
+  height: 6em;
+  width: 6em;
+}
+
+.svg img{
+  height: 3em;
+  width: 3em;
+}
+
+.projects-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: $white;
+  
+}
+
+.projects-content li{
+  background: rgba(54, 44, 117, 0.9);
+  padding: 5%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+
+
+
+
+
+

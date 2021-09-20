@@ -1,0 +1,117 @@
+@import "about";
+@import "projects";
+@import "contact";
+@import "formating";
+
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+
+h1{
+    background: $header-color;
+    font-size: $header-size;
+    color: $white;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: $subhead-size;
+    line-height: 1.5em;
+}
+
+p{
+    font-size: $text-size;
+}
+
+span{
+    font-size: $subhead-size*1.25;
+}
+
+::-webkit-scrollbar {
+    display: none;
+  }
+
+section {
+    height: 100vh;
+    box-sizing: content-box;
+    scroll-snap-align: start; 
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    overflow-x: hidden;
+    transition: $speed;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: $subhead-size;
+    color: $white;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+color: $grey;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: $header-size;
+}
+
+ 
+.video-container video {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+@media screen and (max-height: 480px) {
+    .overlay a {font-size: $text-size}
+    .overlay .closebtn {
+    font-size: $subhead-size;
+    top: 15px;
+    right: 35px;
+    }
+}
+
+@media screen and (max-width:600px ) {
+    h1{font-size: $header-size/1.5;}
+    h2{font-size: $subhead-size/1.5;}
+    p{font-size: $text-size/1.5;}
+    span{font-size: $subhead-size/1.25;}
+}
+
+
+
+

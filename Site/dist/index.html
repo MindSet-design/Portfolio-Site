@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GET-ME-JOB.exe</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <script src= 'index.js' ></script>
+</head>
+<body>
+  <!--Fixed commponents, background and hamburger bar-->
+
+  <!-- Nav overlay-->
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#about" onclick="closeNav()">About</a>
+      <a href="#projects" onclick="closeNav()">Projects</a>
+      <a href="#contact" onclick="closeNav()">Contact</a>
+    </div>
+  </div>
+
+  <!--hamburger bar-->
+  <span style="cursor:pointer;color:#dadce1ea; position: fixed;" onclick="openNav()">&#9776;</span>
+
+  <!--background video-->
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="./Assets/Background.mp4" type="video/mp4">
+      <source src="./Assets/Backgroundwebm.webm" type="video/webm">
+    </video> 
+  </div> 
+
+  <div class="container">
+
+    <section id="about" class="about">
+      <h1>About</h1> 
+      <div class="about-content"> 
+        <div class="me">
+          <h2>Nicholas Nowosad</h2>
+          <p>Hi I am a NAIT Electronics Engineering Technologist Honors Grad with a 4.0 GPA. In this 
+            program I learned varrious electronics principals and various programming languages to varrious degrees.
+            Some of the languages we used included C++, Python, PLC programming and Labview to name a few. Since I graduated
+            I have been learning UE4 with blueprints and C++ along with some HTML, CSS/SCSS and some javascript. Looking for
+            any opportunities in software/technology.   
+          </p>
+        </div>
+        <div class="education">
+          <h2>Education</h2>
+          <p>NAIT Eectronics Engineering Technology: GPA 4.0</p>
+          <a href="/dist/Assets/Transcript.pdf"> Transcript</a>
+          <p>University of Saskatchewan Enviromental Biology: Withdrew</p>
+          <h2>Resume</h2>
+          <a href="https://my.indeed.com/p/nicholasn-6fyj8qe" target="_blank"><img src="Assets/indeed-logo.svg"></a>
+        </div>
+      </div>
+
+    </section>
+
+    <section id="projects" class="projects">
+      <h1>Projects</h1> 
+      <ul class="projects-content"> 
+        <li>
+          <h2>NAIT Final Project</h2>
+          <a href="https://www.youtube.com/watch?v=rxiFlBYINkI" target="_blank"><img src="Assets/youtube-2.svg"></a>
+          <a href="/dist/Assets/Drink_Machine_Technical_Document.pdf"> <h2>Report</h2></a>
+          <div class="svg">
+            <img src="/dist/Assets/arduino-1.svg">
+            <img src="/dist/Assets/raspberry-pi.svg">
+            <img src="/dist/Assets/c.svg">
+          </div>
+        </li>
+        <li>
+          <h2>This Site</h2>
+          <a href=""><img src="/dist/Assets/github-2.svg"1></a>
+          <div class="svg">
+            <img src="/dist/Assets/html-1.svg">
+            <img src="/dist/Assets/css-3.svg">
+            <img src="/dist/Assets/sass-1.svg">
+          </div>
+        </li>
+        <li> <h2>More to come</h2></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h1>Contact</h1>
+      <div class="contact-content"> 
+        <h2>Email:</h2>
+        <p>nicholasnowosad@gmail.com</p>
+        <a href="https://my.indeed.com/p/nicholasn-6fyj8qe" target="_blank"><img src="Assets/indeed-logo.svg"></a>
+
+      </div>
+
+    </section>
+
+  </div> 
+   
+</body>
+</html>
