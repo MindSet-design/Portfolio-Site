@@ -2,3 +2,4 @@
 GitHubPages-Portfolio-Site
 This my static portfolio site for viewing through git hub pages
 HTML, SCSS, CSS, JS, and live sass/scss to css compiler were used to create this site.
+https://mindset-design.github.io/Portfolio-Site/Site/dist/index.html
