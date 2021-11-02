@@ -1,0 +1,40 @@
+.projects {
+  height: auto;
+}
+
+.projects-content a img {
+  height: 7em;
+  width: 7em;
+  padding: 0.25em;
+}
+
+.svg img {
+  height: 4em;
+  width: 4em;
+}
+
+.projects-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: #dadce1ea;
+}
+
+.projects-content li {
+  border-radius: 5%;
+  background: rgba(54, 44, 117, 0.97);
+  padding: 5%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+/*# sourceMappingURL=projects.css.map */

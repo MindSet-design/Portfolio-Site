@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../Site/scss/formating.scss"
+    ],
+    "names": [],
+    "file": "formating.css"
+}
